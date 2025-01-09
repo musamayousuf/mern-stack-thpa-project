@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5000;
 
 // Custom middleware
 const middleware = (req, res, next) => {
-  console.log("Hello Middleware");
+  console.log("Hello Middleware ad");
   next(); // Pass control to the next middleware or route
 };
 
